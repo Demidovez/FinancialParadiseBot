@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  financial_paradise_bot:
+    build: .
+    restart: unless-stopped
+    image: financial_paradise_bot
+    container_name: financial_paradise_bot_co
